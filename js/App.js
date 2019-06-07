@@ -15,8 +15,6 @@ function search() {
   });  
 }
 
-
-
 function setupColumns(columns) {
   columns.forEach(function (column) {
 		var col = new Column(column.id, column.name);
@@ -32,7 +30,6 @@ function setupCards(col, cards) {
 	});
 }
 
-
 function generateTemplate(name, data, basicElement) {
   	var template = document.getElementById(name).innerHTML;
   	var element = document.createElement(basicElement || 'div');
@@ -42,5 +39,3 @@ function generateTemplate(name, data, basicElement) {
   
   	return element;
 }
-
-// TWORZENIE NOWYCH EGZEMPLARZY KOLUMN
