@@ -1,0 +1,111 @@
+.flex-container {
+    display: flex;
+}
+
+.board {
+    flex-direction: column;
+    justify-content: center;
+
+    .header-container {
+        justify-content: center;
+        text-transform: uppercase;
+        background-color: orange;
+        font-size: 25px;
+    }
+
+    .column-container {
+        justify-content: space-around;
+        flex-wrap: wrap;
+        }
+
+    .column {
+        flex-direction: column;
+        border: 2px solid black;
+        border-radius: 5px;
+        height: 100%;
+        width: 350px;
+        margin-top: 20px;
+            
+        .column-card-list-container {
+            flex-wrap: wrap;
+
+            .column-card-list {
+                list-style-type: none;
+                flex-wrap: wrap;
+                    
+                li {
+                    border: 1px solid orange;
+                    border-radius: 3px;
+                    width: 250px;
+                    margin: {
+                        top: 10px;
+                        left: 10px;
+                        } 
+                    }
+                }
+            }
+
+        .column-title-container {
+            justify-content: center;
+            background-color: black;
+
+            .column-title {
+                color: orange;
+                text-transform: uppercase;
+                border-radius: 3px;
+            }
+        }
+
+        .btn-container {
+            justify-content: center;
+                
+            .btn-delete,
+            .add-card {
+                color: orange;
+                padding: 5px;
+                margin: 5px;
+                border-radius: 3px;
+            }
+        }
+    }
+
+    .create-column {
+        color: orange;
+        padding: 5px;
+       // border-radius: 3px;
+        //width: 300px;
+    }
+}
+
+.card {
+    justify-content: center;
+    flex-wrap: nowrap;
+    
+        .card-description-container {
+            flex-wrap: wrap;
+            max-width: 100%;
+            width: 350px;
+            background-color:orange;
+
+            .card-description {
+                margin-left: 10px;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+        }
+
+        .btn-item {
+            background-color: orange;
+            font-weight: 700;
+        }
+
+}
+
+.btn {
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+}

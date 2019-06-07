@@ -1,0 +1,107 @@
+.flex-container {
+  display: flex;
+}
+
+.board {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.board .header-container {
+  justify-content: center;
+  text-transform: uppercase;
+  background-color: orange;
+  font-size: 25px;
+}
+
+.board .column-container {
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.board .column {
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 100%;
+  width: 350px;
+  margin-top: 20px;
+}
+
+.board .column .column-card-list-container {
+  flex-wrap: wrap;
+}
+
+.board .column .column-card-list-container .column-card-list {
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+.board .column .column-card-list-container .column-card-list li {
+  border: 1px solid orange;
+  border-radius: 3px;
+  width: 250px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.board .column .column-title-container {
+  justify-content: center;
+  background-color: black;
+}
+
+.board .column .column-title-container .column-title {
+  color: orange;
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+
+.board .column .btn-container {
+  justify-content: center;
+}
+
+.board .column .btn-container .btn-delete,
+.board .column .btn-container .add-card {
+  color: orange;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 3px;
+}
+
+.board .create-column {
+  color: orange;
+  padding: 5px;
+}
+
+.card {
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.card .card-description-container {
+  flex-wrap: wrap;
+  max-width: 100%;
+  width: 350px;
+  background-color: orange;
+}
+
+.card .card-description-container .card-description {
+  margin-left: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.card .btn-item {
+  background-color: orange;
+  font-weight: 700;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  background-color: black;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=style.css.map */
