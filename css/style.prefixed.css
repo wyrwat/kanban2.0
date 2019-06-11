@@ -1,120 +1,35 @@
-.flex-container {
-  display: -ms-flexbox;
-  display: flex;
-}
+.flex-container { display: -ms-flexbox; display: flex; }
 
-.board {
-  -ms-flex-direction: column;
-      flex-direction: column;
-  -ms-flex-pack: center;
-      justify-content: center;
-}
+.board { -ms-flex-direction: column; flex-direction: column; -ms-flex-pack: center; justify-content: center; }
 
-.board .header-container {
-  -ms-flex-pack: center;
-      justify-content: center;
-  text-transform: uppercase;
-  background-color: orange;
-  font-size: 25px;
-}
+.board .header-container { -ms-flex-pack: center; justify-content: center; text-transform: uppercase; background-color: orange; font-size: 25px; }
 
-.board .column-container {
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
+.board .column-container { -ms-flex-pack: distribute; justify-content: space-around; -ms-flex-wrap: wrap; flex-wrap: wrap; }
 
-.board .column {
-  -ms-flex-direction: column;
-      flex-direction: column;
-  border: 2px solid black;
-  border-radius: 5px;
-  height: 100%;
-  width: 350px;
-  margin-top: 20px;
-}
+.board .column { -ms-flex-direction: column; flex-direction: column; border: 2px solid black; border-radius: 5px; height: 100%; width: 350px; margin-top: 20px; }
 
-.board .column .column-card-list-container {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
+.board .column .column-card-list-container { -ms-flex-wrap: wrap; flex-wrap: wrap; }
 
-.board .column .column-card-list-container .column-card-list {
-  list-style-type: none;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
+.board .column .column-card-list-container .column-card-list { list-style-type: none; -ms-flex-wrap: wrap; flex-wrap: wrap; }
 
-.board .column .column-card-list-container .column-card-list li {
-  border: 1px solid orange;
-  border-radius: 3px;
-  width: 250px;
-  margin-top: 10px;
-  margin-left: 10px;
-}
+.board .column .column-card-list-container .column-card-list li { border: 1px solid orange; border-radius: 3px; width: 250px; margin-top: 10px; margin-left: 10px; }
 
-.board .column .column-title-container {
-  -ms-flex-pack: center;
-      justify-content: center;
-  background-color: black;
-}
+.board .column .column-title-container { -ms-flex-pack: center; justify-content: center; background-color: black; }
 
-.board .column .column-title-container .column-title {
-  color: orange;
-  text-transform: uppercase;
-  border-radius: 3px;
-}
+.board .column .column-title-container .column-title { color: orange; text-transform: uppercase; border-radius: 3px; }
 
-.board .column .btn-container {
-  -ms-flex-pack: center;
-      justify-content: center;
-}
+.board .column .btn-container { -ms-flex-pack: center; justify-content: center; }
 
-.board .column .btn-container .btn-delete,
-.board .column .btn-container .add-card {
-  color: orange;
-  padding: 5px;
-  margin: 5px;
-  border-radius: 3px;
-}
+.board .column .btn-container .btn-delete, .board .column .btn-container .add-card { color: orange; padding: 5px; margin: 5px; border-radius: 3px; }
 
-.board .create-column {
-  color: orange;
-  padding: 5px;
-}
+.board .create-column { color: orange; padding: 5px; }
 
-.card {
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-}
+.card { -ms-flex-pack: center; justify-content: center; -ms-flex-wrap: nowrap; flex-wrap: nowrap; }
 
-.card .card-description-container {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  max-width: 100%;
-  width: 350px;
-  background-color: orange;
-}
+.card .card-description-container { -ms-flex-wrap: wrap; flex-wrap: wrap; max-width: 100%; width: 350px; background-color: orange; }
 
-.card .card-description-container .card-description {
-  margin-left: 10px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
+.card .card-description-container .card-description { margin-left: 10px; font-weight: 700; text-transform: uppercase; }
 
-.card .btn-item {
-  background-color: orange;
-  font-weight: 700;
-}
+.card .btn-item { background-color: orange; font-weight: 700; }
 
-.btn {
-  border: none;
-  cursor: pointer;
-  background-color: black;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-/*# sourceMappingURL=style.prefixed.css.map */
+.btn { border: none; cursor: pointer; background-color: black; text-transform: uppercase; font-weight: 700; }
