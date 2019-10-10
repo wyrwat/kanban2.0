@@ -44,7 +44,7 @@ Column.prototype = {
         var self = this;
         fetch(baseUrl + '/column/' + self.id, { method: 'DELETE', headers: myHeaders })
             .then(function (resp) {
-                return resp.json();
+                return resp
             })
             .then(function (resp) {
                 self.element.parentNode.removeChild(self.element);
